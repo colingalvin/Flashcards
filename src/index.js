@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Stack from './components/stack'
+import Flashcard from './components/flashcards';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Stack />
+    <Flashcard />
   </React.StrictMode>,
   document.getElementById('root')
 );
